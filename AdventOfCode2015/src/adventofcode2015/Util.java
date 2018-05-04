@@ -21,13 +21,15 @@ public class Util {
     /**
      * Retrieves the text inside the file of the path given
      *
-     * @param path of file
+     * @param path: it has to be "dayX/name.txt" where X is the number of the day and name 
+     * is the name of the file
      * @return
      */
     public static String ReadFileOneLine(String path) {
+        final String DEFAULT_PATH = "src/adventofcode2015/";
         String fileContent = "";
         try {
-            BufferedReader bf = new BufferedReader(new FileReader(path));
+            BufferedReader bf = new BufferedReader(new FileReader(DEFAULT_PATH + path));
             String line = bf.readLine();
             while (line != null) {
                 fileContent += line;
