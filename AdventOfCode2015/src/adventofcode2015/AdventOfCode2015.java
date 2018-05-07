@@ -8,6 +8,7 @@ package adventofcode2015;
 import adventofcode2015.day1.Day1;
 import adventofcode2015.day2.Day2;
 import adventofcode2015.day3.Day3;
+import adventofcode2015.day4.Day4;
 import java.util.Scanner;
 
 /**
@@ -19,9 +20,9 @@ public class AdventOfCode2015 {
     public static void main(String[] args) {
         System.out.println("Welcome to Advent of Code 2015! Please choose a day between 1 and 25:");
         int day;
-        do {           
+        do {
             //day = ReadDay();
-            day = 3; //DELETE
+            day = 4; //DELETE
             switch (day) {
                 case 1:
                     Day1 day1 = new Day1();
@@ -34,6 +35,10 @@ public class AdventOfCode2015 {
                 case 3:
                     Day3 day3 = new Day3();
                     day3.main();
+                    break;
+                case 4:
+                    Day4 day4 = new Day4();
+                    day4.main();
                     break;
                 default:
                     System.out.println("ups, this day isn't avaliable yet! Try again");
