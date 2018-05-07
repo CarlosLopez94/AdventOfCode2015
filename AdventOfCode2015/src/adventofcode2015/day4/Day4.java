@@ -28,11 +28,14 @@ public class Day4 {
     }
 
     public void main() {
+        System.out.println("Day 4 - Part 1");
+
         String input = Util.ReadFileOneLine("day4/input.txt");
+
         System.out.println(input);
         int number = findNumberToStartWithZeros(input, 5);
         System.out.println("To start with 5 zeros number is: " + number + " --> " + getMD5(input + number));
-        
+
         System.out.println("\nPart 2");
         number = findNumberToStartWithZeros(input, 6);
         System.out.println("To start with 6 zeros number is: " + number + " --> " + getMD5(input + number));
