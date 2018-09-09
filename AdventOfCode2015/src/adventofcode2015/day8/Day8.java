@@ -23,9 +23,21 @@ public class Day8 {
         for (String i : inputs) {
             charsInString += getCharsInString(i);
             charsInCode += getCharsInCode(i);
-            //System.out.println(i + " ÑÑÑÑÑÑ string:" + stringAux + "  code:" + stringCode);
         }
-        System.out.println(charsInString - charsInCode);
+        int difference = charsInString - charsInCode;
+        System.out.println("Diference between chars in string (" + charsInString + ") and chars in code(" + charsInCode + "): " + difference);
+
+        System.out.println("Part 2");
+        int charsEncoded = 0;
+        charsInCode = 0;
+        for (String i : inputs) {
+            int encodedAux = getEncodedChars(i);
+            charsEncoded += encodedAux;
+            charsInCode += getCharsInString(i);
+        }
+
+        int differencePart2 = charsEncoded - charsInCode;
+        System.out.println("Diference between encoded chars(" + charsEncoded + ") and chars in code(" + charsInCode + "): " + differencePart2);
     }
 
     private int getCharsInString(String s) {
@@ -43,7 +55,7 @@ public class Day8 {
                 chars++;
                 if (nextChar == 'x') {
                     index += 3;
-                }else{
+                } else {
                     index++;
                 }
             } else if (currentChar != '\"') {
@@ -53,4 +65,23 @@ public class Day8 {
         }
         return chars;
     }
+
+    private int getEncodedChars(String s) {
+        int chars = 0;
+        int index = 0;
+
+        while (index < s.length()) {
+            char currentChar = s.charAt(index);
+            if (currentChar == '\"') {
+                chars += 2;
+            } else if (currentChar == '\\') {
+                chars += 2;
+            } else {
+                chars++;
+            }
+            index++;
+        }
+        return chars + 2;
+    }
+
 }
