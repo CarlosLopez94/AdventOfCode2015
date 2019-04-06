@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package adventofcode2015.day9;
+package adventofcode2015.day09;
 
 import adventofcode2015.Util;
 import java.util.ArrayList;
@@ -27,7 +27,7 @@ public class Day9 {
 
     public void main() {
         System.out.println("Day 9 - Part 1");
-        List<String> inputs = Util.ReadFile("day9/input.txt");
+        List<String> inputs = Util.ReadFile("day09/input.txt");
         
         // inits transition Map
         transitionMap = createTransitionsMap(inputs);

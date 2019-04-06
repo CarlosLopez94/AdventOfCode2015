@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package adventofcode2015.day8;
+package adventofcode2015.day08;
 
 import adventofcode2015.Util;
 import java.util.List;
@@ -16,7 +16,7 @@ public class Day8 {
 
     public void main() {
         System.out.println("Day 8 - Part 1");
-        List<String> inputs = Util.ReadFile("day8/input.txt");
+        List<String> inputs = Util.ReadFile("day08/input.txt");
 
         int charsInString = 0;
         int charsInCode = 0;

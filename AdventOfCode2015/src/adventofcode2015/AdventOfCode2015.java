@@ -5,15 +5,15 @@
  */
 package adventofcode2015;
 
-import adventofcode2015.day1.Day1;
-import adventofcode2015.day2.Day2;
-import adventofcode2015.day3.Day3;
-import adventofcode2015.day4.Day4;
-import adventofcode2015.day5.Day5;
-import adventofcode2015.day6.Day6;
-import adventofcode2015.day7.Day7;
-import adventofcode2015.day8.Day8;
-import adventofcode2015.day9.Day9;
+import adventofcode2015.day01.Day1;
+import adventofcode2015.day02.Day2;
+import adventofcode2015.day03.Day3;
+import adventofcode2015.day04.Day4;
+import adventofcode2015.day05.Day5;
+import adventofcode2015.day06.Day6;
+import adventofcode2015.day07.Day7;
+import adventofcode2015.day08.Day8;
+import adventofcode2015.day09.Day9;
 import java.util.Scanner;
 
 /**

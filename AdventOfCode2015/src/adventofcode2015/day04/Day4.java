@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package adventofcode2015.day4;
+package adventofcode2015.day04;
 
 import adventofcode2015.Util;
 import java.security.MessageDigest;
@@ -30,7 +30,7 @@ public class Day4 {
     public void main() {
         System.out.println("Day 4 - Part 1");
 
-        String input = Util.ReadFileOneLine("day4/input.txt");
+        String input = Util.ReadFileOneLine("day04/input.txt");
 
         System.out.println(input);
         int number = findNumberToStartWithZeros(input, 5);

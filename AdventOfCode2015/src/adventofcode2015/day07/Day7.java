@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package adventofcode2015.day7;
+package adventofcode2015.day07;
 
 /**
  *
@@ -12,7 +12,7 @@ package adventofcode2015.day7;
 public class Day7 {
 
     public void main() {
-        System.out.println("Day 7 - Part 1");
+        System.out.println("Day 07 - Part 1");
        //Its done in other computer! waiting for the push
 
     }
