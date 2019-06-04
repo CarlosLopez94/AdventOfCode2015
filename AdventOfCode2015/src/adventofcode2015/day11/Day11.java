@@ -14,7 +14,7 @@ import adventofcode2015.Util;
 public class Day11 {
 
     public void main() {
-        System.out.println("Day 10 - Part 1");
+        System.out.println("Day 11 - Part 1");
         String inputPassword = Util.ReadFile("day11/input.txt").get(0);
 
         //Look for new Password
@@ -28,7 +28,7 @@ public class Day11 {
         System.out.println("After " + cont + " iterations, last password was: '" + inputPassword + "' and "
                 + " the new password is: '" + passwordCandidate + "'");
 
-        System.out.println("Day 10 - Part 2");
+        System.out.println("Day 11 - Part 2");
         //Calculate next password and repeat process
         passwordCandidate = incrementPassword(passwordCandidate);
         cont = 0;
