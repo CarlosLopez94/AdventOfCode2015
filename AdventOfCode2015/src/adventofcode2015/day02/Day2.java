@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package adventofcode2015.day2;
+package adventofcode2015.day02;
 
 import adventofcode2015.Util;
 import java.util.ArrayList;
@@ -18,7 +18,7 @@ public class Day2 {
     public void main() {
         System.out.println("Day 2 - Part 1");
         //Get presents
-        List<String> input = Util.ReadFile("day2/input.txt");
+        List<String> input = Util.ReadFile("day02/input.txt");
         List<Present> presents = parseToPresentList(input);
         //Calculate total wrapping
         int wrapping = 0;

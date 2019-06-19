@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package adventofcode2015.day3;
+package adventofcode2015.day03;
 
 import adventofcode2015.Util;
 import java.util.Objects;
@@ -93,7 +93,7 @@ public class Day3 {
         System.out.println("Day 3 - Part 1");
 
         //Get input
-        String steps = Util.ReadFileOneLine("day3/input.txt");
+        String steps = Util.ReadFileOneLine("day03/input.txt");
         //Follow the steps
         for (int i = 0; i < steps.length(); i++) {
             //Get next position

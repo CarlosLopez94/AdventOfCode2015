@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package adventofcode2015.day6;
+package adventofcode2015.day06;
 
 import adventofcode2015.Util;
 import java.util.List;
@@ -27,7 +27,7 @@ public class Day6 {
 
     public void main() {
         System.out.println("Day 6 - Part 1");
-        List<String> configurations = Util.ReadFile("day6/input.txt");
+        List<String> configurations = Util.ReadFile("day06/input.txt");
         readConfigurations(configurations, true);
         int lightsOn = countLightsOn();
         System.out.println("Number of lights On: " + lightsOn);

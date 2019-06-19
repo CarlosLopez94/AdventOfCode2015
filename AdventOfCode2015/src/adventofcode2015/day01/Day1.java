@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package adventofcode2015.day1;
+package adventofcode2015.day01;
 
 import adventofcode2015.Util;
 
@@ -21,7 +21,7 @@ public class Day1 {
 
     public void main() {
         System.out.println("Day 1 - Part 1");
-        String input = Util.ReadFileOneLine("day1/input.txt");
+        String input = Util.ReadFileOneLine("day01/input.txt");
         System.out.println("Your input is: " + input);
 
         //GoUpstairs and downstairs
