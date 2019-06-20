@@ -15,7 +15,7 @@ public class Day11 {
 
     public void main() {
         System.out.println("Day 11 - Part 1");
-        String inputPassword = Util.ReadFile("day11/input.txt").get(0);
+        String inputPassword = Util.ReadFileOneLine("day11/input.txt");
 
         //Look for new Password
         int cont = 0;
