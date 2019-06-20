@@ -11,7 +11,7 @@ import adventofcode2015.day03.Day3;
 import adventofcode2015.day04.Day4;
 import adventofcode2015.day05.Day5;
 import adventofcode2015.day06.Day6;
-import adventofcode2015.day07.Day7;
+import adventofcode2015.day7.Day7;
 import adventofcode2015.day08.Day8;
 import adventofcode2015.day09.Day9;
 import adventofcode2015.day10.Day10;

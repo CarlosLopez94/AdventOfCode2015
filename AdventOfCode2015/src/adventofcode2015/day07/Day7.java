@@ -98,8 +98,7 @@ public class Day7 {
             String[] tokens = c.split(" ");
             String dependencies = "";
             
-            if(){
-            }
+            
             switch (tokens.length) {
                 case 3:
                     dependent.put(tokens[2], "");
